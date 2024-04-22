@@ -1,0 +1,201 @@
+header {
+    background-color: rgb(17, 31, 2);
+    min-height: 120px;
+}
+
+.header-top {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+}
+
+.header-top i {
+    color: white;
+}
+
+.header-top i :first-child{
+    position: relative;
+right: 170px;
+}
+
+.header-top i:nth-child(2){
+    position: relative;
+    right: 150px;
+}
+
+.header-top i:nth-child(3){
+    position: relative;
+    right: 130px;
+}
+
+.navbar-nav li a {
+    background-color: rgb(70, 190, 68);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    font-size: 15px;
+    padding: 5px 24px !important;
+    font-weight: bold;
+}
+
+.navbar-nav li:first-child a {
+    background-color: rgb(234, 234, 234);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: black;
+    font-size: 15px;
+    padding: 5px 35px !important;
+    font-weight: bold;
+}
+
+.navbar {
+    background: none !important;
+    padding: 0;
+}
+
+.header-left {
+    min-height: 120px;
+}
+
+.header-left h1 {
+    color: white;
+}
+
+.navbar-nav li {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#short-info {
+    background-color: rgb(50, 136, 49);
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
+
+#short-info p {
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+#short-info h1 {
+    margin-left: 40px;
+    color: white;
+}
+
+#short-info img {
+    width: 80%;
+}
+
+#services-team-news {
+    background-color: rgb(17, 31, 2);
+    display: flex;
+    align-items: center;
+    min-height: 350px;
+}
+
+#services-team-news .services h3 span{
+    color: rgb(103, 185, 103);
+    font-style: italic;
+}
+
+#services-team-news .services h3 i {
+    color: rgb(177, 110, 58);
+}
+
+#services-team-news .services .list-group .list-group-item {
+    border: none !important;
+    background: none;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#services-team-news .services .list-group .list-group-item i {
+    color: rgb(103, 185, 103);
+}
+
+#services-team-news .team-info h3 span {
+    color: rgb(103, 185, 103);
+    font-style: italic;
+}
+
+#services-team-news .team-info h3 i {
+    color: rgb(112, 112, 217);
+}
+
+#services-team-news .team-info p {
+    color: white;
+}
+
+#services-team-news .news h3 i {
+    color: white;
+}
+
+#services-team-news .news h3 span {
+    color: rgb(103, 185, 103);
+    font-style: italic;
+}
+
+#services-team-news .news .news-date {
+    color: green;
+}
+
+#services-team-news .news p {
+    color: white;
+}
+
+#clients {
+    background-color: rgb(17, 31, 2);
+    display: flex;
+    align-items: center;
+    min-height: 450px;
+}
+
+#clients {
+    background-color: rgb(2, 31, 27);
+}
+
+#clients .client-logos i {
+    display: block;
+    font-size: 30px;
+}
+
+#clients .about h3 {
+    color: rgb(103, 185, 103);
+    font-style: italic;
+}
+
+#clients .about p {
+    color: white;
+}
+
+#clients .client-logos h3 {
+    color: rgb(103, 185, 103);
+    font-style: italic;
+}
+
+#clients .client-logos i {
+    color: gray;
+    margin: 25px;
+    font-size: 50px;
+}
+
+footer {
+    background-color: rgb(17, 31, 2);
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: green;
+}
+
+footer p,
+span {
+    color: white;
+}
